@@ -1,6 +1,5 @@
 package com.uz.tiptime
 
-import android.icu.text.NumberFormat
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -24,7 +23,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.uz.tiptime.ui.theme.TipTimeTheme
-import java.util.*
+import java.text.NumberFormat
 import kotlin.math.ceil
 
 class MainActivity : ComponentActivity() {
