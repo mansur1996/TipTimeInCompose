@@ -23,6 +23,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.uz.tiptime.ui.theme.TipTimeTheme
+import java.util.*
 import kotlin.math.ceil
 
 class MainActivity : ComponentActivity() {
@@ -68,7 +69,7 @@ fun TipTimeScreen() {
         Spacer(modifier = Modifier.height(16.dp))
 
         EditNumberField(
-            label = R.string.cost_of_service,
+            label = R.string.bill_amount,
             value = amountInput,
             onValueChanged = { amountInput = it },
             keyboardOptions = KeyboardOptions(
